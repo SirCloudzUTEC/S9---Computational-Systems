@@ -19,6 +19,13 @@
   
   - `cd Carpeta/`  
     Ingresa a la carpeta especificada.
+    
+- `chmod +x`  
+  Convierte archivos, comunmente .sh, a ejecutables
+  - `./archivo.sh`  
+    Se activa el ejecutable
+
+
 
 ---
 
