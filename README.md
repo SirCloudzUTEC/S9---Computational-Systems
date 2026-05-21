@@ -1,3 +1,27 @@
+## Comandos básicos de Bash
+
+- `sudo`  
+  Sirve para ejecutar comandos con permisos de administrador o superusuario.  
+  Generalmente solicitará la contraseña del administrador antes de ejecutar el comando.
+
+- `ls`  
+  Sirve para listar archivos y carpetas dentro de un directorio. Existen distintas variantes:
+  
+  - `ls`  
+    Lista únicamente los archivos y carpetas visibles.
+  
+  - `ls -la`  
+    Lista todos los archivos, incluyendo los ocultos.  
+    En Linux, los archivos ocultos comienzan con un `.` al inicio del nombre.
+
+- `cd`  
+  Permite movernos entre directorios o carpetas.
+  
+  - `cd Carpeta/`  
+    Ingresa a la carpeta especificada.
+
+---
+
 | Command | Descripción | Argumentos | Ejemplo | Salida en Terminal |
 |---|---|---|---|---|
 | `mv` | Sirve para mover archivos entre directorios, aunque también sirve para renombrar archivos. | `archivo1 archivo2` | `mv quierorenombrar.txt renombre.txt` | No sale una respuesta en la terminal; únicamente lo mueve o renombra según se indique. |
