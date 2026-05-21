@@ -1,0 +1,17 @@
+sircloudz@pop-os:~/S9---Computational-Systems/practica_linux$ cat /etc/shadow
+cat: /etc/shadow: Permission denied
+
+Ese es el error de permisos. Ejecute el cat de un directorio de admin sin permisos de admin.
+La manera de solucionarlo es corriendo con sudo para hacerlo con permisos de admin. Obviamente necesitaremos la contrasenha.
+
+
+Corriendo con sudo sale lo siguiente:
+sircloudz@pop-os:~/S9---Computational-Systems/practica_linux$ sudo cat /etc/shadow
+[sudo] password for sircloudz: 
+root:*:20515:0:99999:7:::
+daemon:*:20515:0:99999:7:::
+Y asi sucesivamente ...
+...
+..
+...
+Hasta el infinito y mas alla.

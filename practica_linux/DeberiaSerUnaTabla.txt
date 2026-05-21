@@ -1,0 +1,31 @@
+- Command: cat	
+- Description: Sirve para imprimir contenido de un archivo en bash.
+- Arguments: el archivo a imprimir
+- Example: cat estearchivoseimprimira.txt
+- terminal view: Aqui se imprimiria el texto.
+
+
+- Command: mv
+- Description: Sirve para mover archivos entre directorios, aunque tambien sirve para renonmbrar archivos.
+- Arguments: archivo1 archivo 2
+- Example: mv quierorenombrar.txt renombre.txt 
+- Terminal view: No sale una respuesta en la terminal, unicamente lo mueve o renombra segun indicamos.
+
+- Command: echo
+- Description: Tiene 2 usos, sirve para escribir directamente en la terminal o bien para llenar el contenido de un .txt
+- Arguments: el texto a imprimir o lo mismo + > y el archivo a nombrar
+- Example: echo "hola mundo" | echo "nombrar arhcivos" > nombre.txt
+- Terminal view: hola mundo
+
+- Command: pwd
+- Description: Muestra la posicion actual donde estas ubicado entre los directorios
+- Arguments: solo pwd
+- Example: pwd
+- Terminal view: sircloudz@pop-os:~$ pwd
+/home/sircloudz
+
+- Command: nano
+- Description: Es otra manera de crear archivo y, al hacerlo, te manda al GNU, a ponerle contenido al archivo
+- Argument: nombre del archivo 
+- Example: nano holaa.txt
+- Terminal view: La interfaz. De ahi, con cnt+s y cntrl+x lo cierras y simplemente lo guarda. No imprime algo adicional.
